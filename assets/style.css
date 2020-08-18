@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #999b99;
+    font-family: cursive;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.counter-box{
+    text-align: center;
+    flex: 0 0 70%;
+    border: 3px solid grey;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 10px grey;
+    border-radius: 50px;
+   
+}
+.counter{
+
+    font-size: 3rem;
+    
+    
+}
+.btn{
+
+    background: #ffffff;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem;   
+    outline: none;
+   
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.btn:active{
+    
+}
